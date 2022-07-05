@@ -23,7 +23,7 @@ const AddMark = () => {
       method: "POST",
       body: JSON.stringify(newStudent),
       headers: { "Content-Type": "application/json" }
-    }).then(() => navigate("/"));
+    }).then(() => navigate("/student"));
   };
   return (
     <div>

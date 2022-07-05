@@ -16,3 +16,11 @@ body {
   border: 1px solid grey !important;
   font-size: 20px !important;
 }
+
+.homecard {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: auto;
+  margin-top: 30px;
+}

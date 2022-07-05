@@ -1,13 +1,10 @@
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
-import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 
 import React from "react";
 
 import { useNavigate } from "react-router-dom";
-
-import AddMark from "./AddMark";
 
 const Header = ({ mode, setMode }) => {
   const navigate = useNavigate();
@@ -20,6 +17,9 @@ const Header = ({ mode, setMode }) => {
           </Button>
           <Button onClick={() => navigate("/add")} color="inherit">
             Add Student
+          </Button>
+          <Button onClick={() => navigate("/addteacher")} color="inherit">
+            Add Teacher
           </Button>
           <Button
             style={{ marginLeft: "auto" }}

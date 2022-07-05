@@ -6,8 +6,6 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 
-import React, { useState, useEffect } from "react";
-
 import * as yup from "yup";
 
 import { useFormik } from "formik";

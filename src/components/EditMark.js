@@ -42,7 +42,7 @@ const EditMark = () => {
       method: "PUT",
       body: JSON.stringify(updatedData),
       headers: { "Content-Type": "application/json" }
-    }).then(() => navigate("/"));
+    }).then(() => navigate("/student"));
   };
   return (
     <div>
