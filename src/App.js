@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Home from "./components/Home";
+import StudentPage from "./components/StudentPage";
 import Header from "./components/Header";
 import NotFound from "./components/NotFound";
 import AddMark from "./components/AddMark";
@@ -24,7 +24,7 @@ const App = () => {
         <Paper elevation={3} style={{ minHeight: "100vh" }}>
           <Header mode={mode} setMode={setMode} />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<StudentPage />} />
             <Route path="/add" element={<AddMark />} />
             <Route path="/student/edit/:id" element={<EditMark />} />
             <Route path="/student/view/:id" element={<ViewMark />} />
