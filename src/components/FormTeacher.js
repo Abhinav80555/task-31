@@ -53,7 +53,7 @@ const FormTeacher = ({ onSubmit, type, teacherDetails }) => {
       allowance = +allowance;
 
       const data = { ...values, salary, allowance };
-      // console.log(values);
+      console.log(values);
       onSubmit(data);
     }
   });
